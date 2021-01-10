@@ -1,0 +1,551 @@
+@import "icons/pro-icons.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --padding-xl: 220px;
+    --padding-lg: 150px;
+    --padding-md: 100px;
+    --padding-sm: 30px;
+
+    --col-flex: calc(100% / 9);
+}
+
+
+
+/* Start Grid System */
+.container{
+    width: 100%;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-full{
+    width: 100%;
+    padding-left: calc(var(--padding-xl) - 150px);
+    padding-right: calc(var(--padding-xl) - 150px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(max-width: 1220px)
+{
+    .container{
+        padding-left: calc(var(--padding-lg) - 100px);
+        padding-right: calc(var(--padding-lg) - 100px);
+    }
+}
+
+@media(max-width: 1000px)
+{
+    .container{
+        padding-left: calc(var(--padding-md) - 80px);
+        padding-right: calc(var(--padding-md) - 80px);
+    }
+}
+
+@media(max-width: 700px)
+{
+    .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+/* Row */
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+@media(max-width: 650px)
+{
+    .row{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .row > * {
+        width: 100%;
+    }
+}
+
+/* Col */
+.row > .col{
+    flex: 1;
+    max-width: 100%;
+}
+
+
+
+/* Col 1 */
+.row > .col-1{
+    flex: calc(var(--col-flex) * 1);
+    max-width: calc(var(--col-flex) * 1);
+}
+
+/* Col 2 */
+.row > .col-2{
+    flex: calc(var(--col-flex) * 2);
+    max-width: calc(var(--col-flex) * 2);
+}
+
+/* Col 3 */
+.row > .col-3{
+    flex: calc(var(--col-flex) * 3);
+    max-width: calc(var(--col-flex) * 3);
+}
+
+/* Col 4 */
+.row > .col-4{
+    flex: calc(var(--col-flex) * 4);
+    max-width: calc(var(--col-flex) * 4);
+}
+
+/* Col 5 */
+.row > .col-5{
+    flex: calc(var(--col-flex) * 5);
+    max-width: calc(var(--col-flex) * 5);
+}
+
+/* Col 6 */
+.row > .col-6{
+    flex: calc(var(--col-flex) * 6);
+    max-width: calc(var(--col-flex) * 6);
+}
+
+/* Col 7 */
+.row > .col-7{
+    flex: calc(var(--col-flex) * 7);
+    max-width: calc(var(--col-flex) * 7);
+}
+
+/* Col 8 */
+.row > .col-8{
+    flex: calc(var(--col-flex) * 8);
+    max-width: calc(var(--col-flex) * 8);
+}
+
+/* Col 9 */
+.row > .col-9{
+    flex: 100%;
+    max-width: 100%;
+}
+
+/* End Grid System */
+
+/* Start Css Styles */
+
+/* Padding X */
+.px-5{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.px-10{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.px-15{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.px-20{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.px-25{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.px-30{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+/* Pading Y */
+.py-5{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.py-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.py-15{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.py-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.py-25{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.py-30{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Margin X */
+.mx-5{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.mx-10{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.mx-15{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.mx-20{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.mx-25{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.mx-30{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+/* Margin Y */
+.my-5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.my-10{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-15{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.my-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.my-25{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.my-30{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* Flex */
+.flex{
+    display: flex;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+/* Text & Font */
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-decoration-none{
+    text-decoration: none;
+}
+
+.text-decoration-underline{
+    text-decoration: underline;
+}
+
+/* Font Size */
+.fsize-15{
+    font-size: 15px;
+}
+
+.fsize-20{
+    font-size: 20px;
+}
+
+.fsize-25{
+    font-size: 25px;
+}
+
+.fsize-30{
+    font-size: 30px;
+}
+
+.fsize-35{
+    font-size: 35px;
+}
+
+.fsize-40{
+    font-size: 40px;
+}
+
+.fsize-45{
+    font-size: 45px;
+}
+
+.fsize-50{
+    font-size: 50px;
+}
+
+/* Opacity */
+.opacity-10{
+    opacity: 10%;
+}
+
+.opacity-20{
+    opacity: 20%;
+}
+
+.opacity-30{
+    opacity: 30%;
+}
+
+.opacity-40{
+    opacity: 40%;
+}
+
+.opacity-50{
+    opacity: 50%;
+}
+
+.opacity-60{
+    opacity: 60%;
+}
+
+.opacity-70{
+    opacity: 70%;
+}
+
+.opacity-80{
+    opacity: 80%;
+}
+
+.opacity-90{
+    opacity: 90%;
+}
+
+.opacity-100{
+    opacity: 100%;
+}
+
+
+/* Position */
+.position-relative{
+    position: relative;
+}
+
+.position-absolute{
+    position: absolute;
+}
+
+.position-fixed{
+    position: fixed;
+}
+
+
+/* Background Color */
+
+
+/* End Css Styles */
+
+/* Start Buttons */
+
+.btn{
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 5px 8px;
+    margin: 10px;
+    width: fit-content;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
+    opacity: 0.85;
+    transition: opacity 0.3s;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.btn-primary{
+    color: #f1f2f6;
+    background-color: #3440a7;
+}
+
+.btn-dark{
+    color: #f1f2f6;
+    background-color: #2f3542;
+}
+
+.btn-light{
+    color: #333333;
+    background-color: #cfcfcf;
+}
+
+.btn-danger{
+    color: #f1f2f6;
+    background-color: #d64d4d;
+}
+
+.btn-success{
+    color: #f1f2f6;
+    background-color: #2d9e5c;
+}
+
+/* End Buttons */
+
+/* Start Badges */
+
+.badge{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 3px 5px;
+    margin: 5px;
+    width: fit-content;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: default;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-primary{
+    color: #f1f2f6;
+    background-color: #3440a7;
+}
+
+.badge-dark{
+    color: #f1f2f6;
+    background-color: #2f3542;
+}
+
+.badge-light{
+    color: #333333;
+    background-color: #cfcfcf;
+}
+
+.badge-danger{
+    color: #f1f2f6;
+    background-color: #d64d4d;
+}
+
+.badge-success{
+    color: #f1f2f6;
+    background-color: #2d9e5c;
+}
+
+/* End Badges */
+
+
+/* Start Forms */
+
+.form{
+    max-width: 100%;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.form-box{
+    flex: 1;
+    color: black;
+    background: white;
+    display: block;
+    font-size: 20px;
+    outline: none;
+    border: 1.5px solid #b9b9b9;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px;
+    width: 50%;
+    transition: border 0.3s;
+}
+
+.form-box::placeholder{
+    opacity: 0.6;
+}
+
+.form-box:focus{
+    border: 1.5px solid #05448b;
+}
+
+/* End Forms */
