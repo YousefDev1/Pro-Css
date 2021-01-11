@@ -652,8 +652,9 @@
 .alert-danger {
     background-color: var(--danger);
 }
+/* End Alerts */
 
-/* Qoutes */
+/* Start Qoutes */
 .qoute {
     font-family: sans-serif;
     height: -webkit-fit-content;
@@ -718,9 +719,10 @@
     color: black;
     border-left: 5px solid var(--warning);
 }
+/* End Quotes */
 
 
-/* Spinners */
+/* Start Spinners */
 .spinner{
     position: relative;
     height: 50px;
@@ -769,8 +771,10 @@
     border: 6px solid var(--success);
     border-bottom: 6px solid transparent;
 }
+/* End Spinners */
 
-/* Progress Bar */
+
+/* Start Progress Bar */
 .progress{
     display: flex;
     align-items: center;
@@ -889,3 +893,51 @@
 .progress .progress-warning{
     background-color: var(--warning);   
 }
+/* End Progress Bars */
+
+
+/* Start Tables */
+.table {
+    background-color: white;
+    width: 100%;
+    max-height: 100%;
+    border-collapse: collapse;
+}
+
+.table thead {
+    width: 100%;
+}
+
+.table thead th {
+    background-color: #CFCFCF;
+    padding: 10px;
+}
+
+.table tbody {
+    width: 100%;
+}
+
+.table tbody tr {
+    text-align: center;
+}
+
+.table tbody tr td,
+.table tbody tr th {
+    padding: 10px;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.table tbody tr td {
+    color: #424242;
+}
+
+.table tbody tr:hover {
+    background-color: #f3f3f3;
+}
+
+.table-container {
+    overflow: auto;
+}
+
+
+/* End Tables */
