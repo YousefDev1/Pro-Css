@@ -291,6 +291,7 @@
   content: "\40";
 }
 
+/*********************/
 
 .pro-check::before{
   content: '\2611';
