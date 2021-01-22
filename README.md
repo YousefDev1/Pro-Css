@@ -15,7 +15,7 @@
 Install via git `git clone https://github.com/YousefDev1/Pro-Css`
 
 ```text
-bootstrap/
+pro/
 ├── css/
 │   ├── pro.css
 │   └── icons
@@ -26,3 +26,4 @@ bootstrap/
 
 ## Get Start
 
+You can start by 
