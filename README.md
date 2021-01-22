@@ -6,8 +6,23 @@
 
 <p>Make frontend more easy and flexible</p>
 
-- [Quick start](#quick-start)
+- [Installation](#installation)
 - [Get start](#get-start)
 
 
+## Installation
+
+Install via git `git clone https://github.com/YousefDev1/Pro-Css`
+
+```text
+bootstrap/
+├── css/
+│   ├── pro.css
+│   └── icons
+        └── pro-icons.css
+└── js/
+    └── pro.js
+```
+
 ## Get Start
+
