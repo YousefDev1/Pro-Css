@@ -26,4 +26,10 @@ pro/
 
 ## Get Start
 
-You can start by 
+You can start by adding framework files to your project.
+*** Css files
+    `<link rel="stylesheet" href="pro/css/pro.css">`
+    
+*** JavaScript files
+    `<script src="pro/js/pro.js"/script>`
+
